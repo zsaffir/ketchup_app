@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+provisioning_profiles/development/2D4B303A-A1AD-4CB0-981A-1BABDFFFD068/appid=com.ketchup.app
+provisioning_profiles/development/2D4B303A-A1AD-4CB0-981A-1BABDFFFD068/name=Ketchup Beta Testing
+provisioning_profiles/development/2D4B303A-A1AD-4CB0-981A-1BABDFFFD068/uuid=2D4B303A-A1AD-4CB0-981A-1BABDFFFD068
+provisioning_profiles/development/7592DD68-4819-493E-8100-C6167AB8CB44/appid=*
+provisioning_profiles/development/7592DD68-4819-493E-8100-C6167AB8CB44/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/development/7592DD68-4819-493E-8100-C6167AB8CB44/uuid=7592DD68-4819-493E-8100-C6167AB8CB44
+provisioning_profiles/development/7CCE1FC7-EA18-46D8-840A-72E83083AC12/appid=com.ketchup.app2
+provisioning_profiles/development/7CCE1FC7-EA18-46D8-840A-72E83083AC12/name=iOS Team Provisioning Profile\: com.ketchup.app2
+provisioning_profiles/development/7CCE1FC7-EA18-46D8-840A-72E83083AC12/uuid=7CCE1FC7-EA18-46D8-840A-72E83083AC12

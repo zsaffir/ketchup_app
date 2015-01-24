@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="ti.android.runtime">v8</property>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.4.0.GA</sdk-version>
+    <id>com.ketchup.kellogg</id>
+    <name>KetchUp Class Recorder</name>
+    <version>1.0.5</version>
+    <publisher>KetchUp Technology</publisher>
+    <url>http://www.ketchuptechnology.com/education</url>
+    <description>Keeping Students Caught Up</description>
+    <copyright>2013 by KetchUp Technology</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>4d97b65a-d7a7-40e6-8102-16db4d412e02</guid>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application>
+                <activity
+                    android:configChanges="keyboardHidden|orientation"
+                    android:name="org.appcelerator.titanium.TiActivity" android:screenOrientation="portrait"/>
+            </application>
+        </manifest>
+        <services>
+            <service type="interval" url="androidService.js"/>
+        </services>
+    </android>
+    <ios>
+        <plist>
+            <dict>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <true/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleBlackTranslucent</string>
+                <key>UISupportedInterfaceOrientations</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UIBackgroundModes</key>
+                <array>
+                    <string>audio</string>
+                </array>
+            </dict>
+        </plist>
+    </ios>
+    <modules/>
+</ti:app>
